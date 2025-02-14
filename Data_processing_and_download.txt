@@ -1,4 +1,4 @@
-
+//This is a GEE code. Insert the region according to your preference. If you want to use the same code, specify your region of interest in variable 'region'.
 // Cloud mask
 function maskClouds(image) {
   var cloudShadowBitMask = (1 << 3);
